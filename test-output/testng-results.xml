@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-12T23:53:09 EST" name="SmokeSuite" finished-at="2023-02-12T23:53:29 EST" duration-ms="19562">
+  <suite started-at="2023-02-16T18:57:01 EST" name="SmokeSuite" finished-at="2023-02-16T18:57:24 EST" duration-ms="23258">
     <groups>
     </groups>
-    <test started-at="2023-02-12T23:53:09 EST" name="LoginTest" finished-at="2023-02-12T23:53:23 EST" duration-ms="13946">
+    <test started-at="2023-02-16T18:57:01 EST" name="LoginTest" finished-at="2023-02-16T18:57:18 EST" duration-ms="17477">
       <class name="com.facebookLoginTests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookLoginTests.LoginTest@5c33f1a9]" started-at="2023-02-12T23:53:09 EST" name="setUp" finished-at="2023-02-12T23:53:12 EST" duration-ms="2509" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookLoginTests.LoginTest@55183b20]" started-at="2023-02-16T18:57:01 EST" name="setUp" finished-at="2023-02-16T18:57:06 EST" duration-ms="5123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:com.facebookLoginTests.LoginTest@5c33f1a9]" started-at="2023-02-12T23:53:12 EST" name="invalidLoginTest" finished-at="2023-02-12T23:53:18 EST" duration-ms="5978" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.facebookLoginTests.LoginTest@55183b20]" started-at="2023-02-16T18:57:06 EST" name="invalidLoginTest" finished-at="2023-02-16T18:57:12 EST" duration-ms="5381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookLoginTests.LoginTest@5c33f1a9]" started-at="2023-02-12T23:53:18 EST" name="tearDown" finished-at="2023-02-12T23:53:18 EST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookLoginTests.LoginTest@55183b20]" started-at="2023-02-16T18:57:12 EST" name="tearDown" finished-at="2023-02-16T18:57:12 EST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookLoginTests.LoginTest@5c33f1a9]" started-at="2023-02-12T23:53:18 EST" name="setUp" finished-at="2023-02-12T23:53:19 EST" duration-ms="1349" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookLoginTests.LoginTest@55183b20]" started-at="2023-02-16T18:57:12 EST" name="setUp" finished-at="2023-02-16T18:57:14 EST" duration-ms="1886" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,53 +37,201 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:com.facebookLoginTests.LoginTest@5c33f1a9]" started-at="2023-02-12T23:53:19 EST" name="testLogin" finished-at="2023-02-12T23:53:23 EST" duration-ms="3828" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:com.facebookLoginTests.LoginTest@55183b20]" started-at="2023-02-16T18:57:14 EST" name="testLogin" finished-at="2023-02-16T18:57:18 EST" duration-ms="4699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookLoginTests.LoginTest@5c33f1a9]" started-at="2023-02-12T23:53:23 EST" name="tearDown" finished-at="2023-02-12T23:53:23 EST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookLoginTests.LoginTest@55183b20]" started-at="2023-02-16T18:57:18 EST" name="tearDown" finished-at="2023-02-16T18:57:18 EST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.facebookLoginTests.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2023-02-12T23:53:23 EST" name="RegistrationTest" finished-at="2023-02-12T23:53:29 EST" duration-ms="5580">
+    <test started-at="2023-02-16T18:57:18 EST" name="RegistrationTest" finished-at="2023-02-16T18:57:24 EST" duration-ms="5765">
       <class name="com.facebookRegistrationTests.RegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@22555ebf]" started-at="2023-02-12T23:53:23 EST" name="setUp" finished-at="2023-02-12T23:53:24 EST" duration-ms="1397" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@815b41f]" started-at="2023-02-16T18:57:18 EST" name="setUp" finished-at="2023-02-16T18:57:20 EST" duration-ms="2007" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationTest()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@22555ebf]" started-at="2023-02-12T23:53:24 EST" name="registrationTest" finished-at="2023-02-12T23:53:26 EST" duration-ms="1380" status="PASS">
+        <test-method signature="registrationTest()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@815b41f]" started-at="2023-02-16T18:57:20 EST" name="registrationTest" finished-at="2023-02-16T18:57:23 EST" duration-ms="2155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@22555ebf]" started-at="2023-02-12T23:53:26 EST" name="tearDown" finished-at="2023-02-12T23:53:26 EST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@815b41f]" started-at="2023-02-16T18:57:23 EST" name="tearDown" finished-at="2023-02-16T18:57:23 EST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@22555ebf]" started-at="2023-02-12T23:53:26 EST" name="setUp" finished-at="2023-02-12T23:53:27 EST" duration-ms="1337" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@815b41f]" started-at="2023-02-16T18:57:23 EST" name="setUp" finished-at="2023-02-16T18:57:24 EST" duration-ms="1296" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.46)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2d868a2dbaee54021b2599623b0d70d7, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.46, ms:edgeOptions: {debuggerAddress: localhost:61577}, msedge: {msedgedriverVersion: 110.0.1587.46 (2d93e523d0a6..., userDataDir: C:\Users\mofmo\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61577/devtoo..., se:cdpVersion: 110.0.1587.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d868a2dbaee54021b2599623b0d70d7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.46)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2d868a2dbaee54021b2599623b0d70d7, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.46, ms:edgeOptions: {debuggerAddress: localhost:61577}, msedge: {msedgedriverVersion: 110.0.1587.46 (2d93e523d0a6..., userDataDir: C:\Users\mofmo\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61577/devtoo..., se:cdpVersion: 110.0.1587.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d868a2dbaee54021b2599623b0d70d7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
+at com.BaseTest.BaseTest.openApp(BaseTest.java:49)
+at com.BaseTest.BaseTest.setUp(BaseTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationTest_Stewrt()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@22555ebf]" started-at="2023-02-12T23:53:27 EST" name="registrationTest_Stewrt" finished-at="2023-02-12T23:53:28 EST" duration-ms="1220" status="PASS">
+        <test-method signature="registrationTest_Stewrt()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@815b41f]" started-at="2023-02-16T18:57:24 EST" name="registrationTest_Stewrt" finished-at="2023-02-16T18:57:24 EST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.46)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2d868a2dbaee54021b2599623b0d70d7, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.46, ms:edgeOptions: {debuggerAddress: localhost:61577}, msedge: {msedgedriverVersion: 110.0.1587.46 (2d93e523d0a6..., userDataDir: C:\Users\mofmo\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61577/devtoo..., se:cdpVersion: 110.0.1587.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d868a2dbaee54021b2599623b0d70d7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.46)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2d868a2dbaee54021b2599623b0d70d7, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.46, ms:edgeOptions: {debuggerAddress: localhost:61577}, msedge: {msedgedriverVersion: 110.0.1587.46 (2d93e523d0a6..., userDataDir: C:\Users\mofmo\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61577/devtoo..., se:cdpVersion: 110.0.1587.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d868a2dbaee54021b2599623b0d70d7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
+at com.BaseTest.BaseTest.openApp(BaseTest.java:49)
+at com.BaseTest.BaseTest.setUp(BaseTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest_Stewrt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@22555ebf]" started-at="2023-02-12T23:53:28 EST" name="tearDown" finished-at="2023-02-12T23:53:29 EST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebookRegistrationTests.RegistrationTest@815b41f]" started-at="2023-02-16T18:57:24 EST" name="tearDown" finished-at="2023-02-16T18:57:24 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

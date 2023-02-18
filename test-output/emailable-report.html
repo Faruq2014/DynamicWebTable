@@ -9,16 +9,62 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">SmokeSuite</th></tr>
-<tr><td><a href="#t0">LoginTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,946</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">RegistrationTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,580</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">19,526</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">LoginTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,477</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">RegistrationTest</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">5,765</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">23,242</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SmokeSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.facebookLoginTests.LoginTest</td><td><a href="#m0">invalidLoginTest</a></td><td rowspan="1">1676263992101</td><td rowspan="1">5978</td></tr><tr class="passedeven"><td><a href="#m1">testLogin</a></td><td rowspan="1">1676263999555</td><td rowspan="1">3828</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">RegistrationTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.facebookRegistrationTests.RegistrationTest</td><td><a href="#m2">registrationTest</a></td><td rowspan="1">1676264004941</td><td rowspan="1">1380</td></tr><tr class="passedeven"><td><a href="#m3">registrationTest_Stewrt</a></td><td rowspan="1">1676264007774</td><td rowspan="1">1220</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SmokeSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.facebookLoginTests.LoginTest</td><td><a href="#m0">invalidLoginTest</a></td><td rowspan="1">1676591826648</td><td rowspan="1">5381</td></tr><tr class="passedeven"><td><a href="#m1">testLogin</a></td><td rowspan="1">1676591834057</td><td rowspan="1">4699</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">RegistrationTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.facebookRegistrationTests.RegistrationTest</td><td><a href="#m2">setUp</a></td><td rowspan="1">1676591843414</td><td rowspan="1">1296</td></tr><tr><th colspan="4">RegistrationTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.facebookRegistrationTests.RegistrationTest</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1676591844739</td><td rowspan="1">0</td></tr><tr><th colspan="4">RegistrationTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.facebookRegistrationTests.RegistrationTest</td><td><a href="#m4">registrationTest_Stewrt</a></td><td rowspan="1">1676591844734</td><td rowspan="1">0</td></tr><tr><th colspan="4">RegistrationTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.facebookRegistrationTests.RegistrationTest</td><td><a href="#m5">registrationTest</a></td><td rowspan="1">1676591840985</td><td rowspan="1">2155</td></tr></tbody>
 </table>
 <h2>LoginTest</h2><h3 id="m0">com.facebookLoginTests.LoginTest#invalidLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.facebookLoginTests.LoginTest#testLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>RegistrationTest</h2><h3 id="m2">com.facebookRegistrationTests.RegistrationTest#registrationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.facebookRegistrationTests.RegistrationTest#registrationTest_Stewrt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RegistrationTest</h2><h3 id="m2">com.facebookRegistrationTests.RegistrationTest#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.46)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2d868a2dbaee54021b2599623b0d70d7, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.46, ms:edgeOptions: {debuggerAddress: localhost:61577}, msedge: {msedgedriverVersion: 110.0.1587.46 (2d93e523d0a6..., userDataDir: C:\Users\mofmo\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61577/devtoo..., se:cdpVersion: 110.0.1587.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d868a2dbaee54021b2599623b0d70d7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
+	at com.BaseTest.BaseTest.openApp(BaseTest.java:49)
+	at com.BaseTest.BaseTest.setUp(BaseTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.facebookRegistrationTests.RegistrationTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.facebookRegistrationTests.RegistrationTest#registrationTest_Stewrt</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.46)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2d868a2dbaee54021b2599623b0d70d7, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.46, ms:edgeOptions: {debuggerAddress: localhost:61577}, msedge: {msedgedriverVersion: 110.0.1587.46 (2d93e523d0a6..., userDataDir: C:\Users\mofmo\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61577/devtoo..., se:cdpVersion: 110.0.1587.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d868a2dbaee54021b2599623b0d70d7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:946)
+	at com.BaseTest.BaseTest.openApp(BaseTest.java:49)
+	at com.BaseTest.BaseTest.setUp(BaseTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.facebookRegistrationTests.RegistrationTest#registrationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
