@@ -75,9 +75,9 @@ public class RegistrationPage {
 		passwordField.sendKeys(password);
 	}
 
-	public void selectBirthday(String day, String month, String year) {
-		birthdayDayField.sendKeys(day);
+	public void selectBirthday( String month,String day, String year) {
 		birthdayMonthField.sendKeys(month);
+		birthdayDayField.sendKeys(day);
 		birthdayYearField.sendKeys(year);
 	}
 

@@ -17,10 +17,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+
+import com.FacebookUtlities.ReadProperties;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	protected WebDriver driver;
+	ReadProperties properties; 
 
 	@BeforeMethod
 	@Parameters({ "browser" })
@@ -44,7 +48,9 @@ public class BaseTest {
 	}
 
 	public void openApp() {
-		driver.get("https://www.google.com");
+		properties= new ReadProperties();
+		String url = properties.getUrl();
+		driver.get(url);
 		// maximizePage();
 		driver.manage().window().maximize();
 
@@ -56,7 +62,7 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDown() {
 		if (driver != null) {
-			driver.quit();
+			//driver.quit();
 		}
 	}
 
