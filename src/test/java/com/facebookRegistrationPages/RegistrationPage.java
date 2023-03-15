@@ -55,8 +55,9 @@ public class RegistrationPage {
 		createNewAccount.click();
 	}
 
-	public void enterFirstName(String firstName) {
+	public String enterFirstName(String firstName) {
 		firstNameField.sendKeys(firstName);
+		return firstName;
 	}
 
 	public void enterLastName(String lastName) {
